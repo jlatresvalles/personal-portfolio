@@ -1,6 +1,16 @@
 import { Button } from "@/components/Button"
-import { Download } from "lucide-react"
+import { Download, ChevronDown } from "lucide-react"
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton"
+
+const skills = [
+    "Java",
+    "Python",
+    "C",
+    "React",
+    "Tailwind CSS",
+    "SimpliGov",
+    "Postman"
+]
 
 export const Hero = () => {
     return (
@@ -86,6 +96,36 @@ export const Hero = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Skills */}
+                <div className="mt-20 animate-fade-in animate-delay-600">
+                    <p className="text-sm text-muted-foreground mb-6 text-center">Skills</p>
+                    <div className="relative overflow-hidden">
+                        <div className="flex animate-marquee">
+                            {[...skills, ...skills].map((skill, idx) => (
+                                <div 
+                                    key={idx}
+                                    className="flex-shrink-0 px-8 py-4"
+                                >
+                                    <span className="text-xl font-semibold text-muted-foreground/80 hover:text-muted-foreground transition-colors">{skill}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                className="absolute bottom-8 left-1/2 -translate-x-1/2 
+                animate-fade-in animation-delay-800"
+            >
+                <a
+                    href="#about"
+                    className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+                >
+                    <span className="text-xs uppercase tracking-wider">Scroll</span>
+                    <ChevronDown className="w-6 h-6" />
+                </a>
             </div>
         </section>
     )
