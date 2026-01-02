@@ -6,8 +6,8 @@ const navLinks = [
     {href: "#about", label: "About"},
     {href: "#projects", label: "Projects"},
     {href: "#experience", label: "Experience"},
-    {href: "https://www.linkedin.com/in/jlatresvalles/", label: "LinkedIn"},
-    {href: "https://github.com/jlatresvalles", label: "GitHub"},
+    {href: "https://www.linkedin.com/in/jlatresvalles/", label: "LinkedIn", external: true},
+    {href: "https://github.com/jlatresvalles", label: "GitHub", external: true},
 ]
 
 export const Navbar = () => {
@@ -30,6 +30,8 @@ export const Navbar = () => {
                             <a 
                                 key={index} 
                                 href={link.href}
+                                target={link.external ? "_blank" : undefined}
+                                rel={link.external ? "noopener noreferrer" : undefined}
                                 className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
                             >
                                 {link.label}
@@ -62,6 +64,8 @@ export const Navbar = () => {
                             <a 
                                 key={index} 
                                 href={link.href}
+                                target={link.external ? "_blank" : undefined}
+                                rel={link.external ? "noopener noreferrer" : undefined}
                                 className="text-lg text-muted-foreground hover:text-foreground py-2"
                             >
                                 {link.label}
