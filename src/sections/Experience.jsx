@@ -43,7 +43,7 @@ export const Experience = () => {
 
             <div className="container mx-auto px-6 relative z-10">
                 {/* Section Header */}
-                <div className="max-w-3xl mb-16">
+                <div className="max-w-3xl mx-auto text-center mb-16">
                     <span className="text-secondary-foreground text-lg font-medium tracking-wider uppercase animate-fade-in">
                         Career Journey
                     </span>

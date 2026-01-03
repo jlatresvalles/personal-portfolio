@@ -56,9 +56,11 @@ export const Navbar = () => {
 
                 {/* Call to Action Button */}
                 <div className="hidden md:block">
-                    <Button size="sm">
-                        <span className="relative flex items-center justify-center gap-2">Contact Me</span>
-                    </Button>
+                    <a href="#contact">
+                        <Button size="sm">
+                            <span className="relative flex items-center justify-center gap-2">Contact Me</span>
+                        </Button>
+                    </a>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -87,9 +89,11 @@ export const Navbar = () => {
                             </a>
                         ))}
 
-                    <Button onClick={() => setIsMobileMenuOpen(false)}>
-                        Contact Me
-                    </Button>
+                    <a href="#contact">
+                        <Button onClick={() => setIsMobileMenuOpen(false)}>
+                            Contact Me
+                        </Button>
+                    </a>
                 </div>
             </div>
             )}

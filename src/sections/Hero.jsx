@@ -69,16 +69,23 @@ export const Hero = () => {
 
                         {/* Call to Action */}
                         <div className="flex flex-wrap gap-4 animate-fade-in animate-delay-300">
-                            <Button size="lg">
-                                Contact Me
-                            </Button>
+                            <a href="#contact">
+                                <Button size="lg">
+                                    Contact Me
+                                </Button>
+                            </a>
 
-                            <Button size="lg">
-                                <span className="relative flex items-center justify-center gap-2">
-                                    <Download className="w-5 h-5" />
-                                    Download CV
-                                </span>
-                            </Button>
+                            <a 
+                                href="/Justin_Tresvalles_Resume.pdf"
+                                download
+                            >
+                                <Button size="lg">
+                                    <span className="relative flex items-center justify-center gap-2">
+                                        <Download className="w-5 h-5" />
+                                        Download Resume
+                                    </span>
+                                </Button>
+                            </a>
                         </div>
                     </div>
 
