@@ -1,4 +1,5 @@
 import { ArrowUpRight, Github } from "lucide-react";
+import { Button } from "@/components/Button"
 
 const projects = [
     {
@@ -58,15 +59,15 @@ export const Projects = () => {
                     </div>
 
                     {/* Projects Grid */}
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-1 gap-8">
                         {projects.map((projects, idx) => (
                             <div 
                                 key={idx} 
-                                className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
+                                className="group glass rounded-2xl overflow-hidden animate-fade-in max-w-5xl mx-auto"
                                 style={{animationDelay: `${(idx + 1) * 100}ms`}}
                             >
                                 {/* Image */}
-                                <div className="relative overflow-hidden aspect-video">
+                                <div className="relative overflow-hidden h-75">
                                     <img 
                                         src={projects.image} 
                                         alt={projects.title} 
@@ -92,8 +93,35 @@ export const Projects = () => {
                                         </a>
                                     </div>
                                 </div>
+
+                                {/* Content */}
+                                <div className="p-6 space-y-4">
+                                    <div className="flex items-start justify-between">
+                                        <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{projects.title}</h3>
+                                        <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all"/>
+                                    </div>
+                                    <p className="text-muted-foreground text-sm">{projects.description}</p>
+                                    <div className="flex flex-wrap gap-2">
+                                        {projects.tags.map((tag, tagIdx) => (
+                                        <span 
+                                            key={tagIdx}
+                                            className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50 text-muted-foreground hover:border-primary/50 hover:text-primary transition-all duration-300">{tag}
+                                        </span>
+                                        ))}
+                                    </div>
+                                </div>
                             </div>
                         ))}
+                    </div>
+
+                    {/* View All Projects Call to Action */}
+                    <div className="text-center mt-12 animate-fade-in animation-delay-500">
+                        <Button size="lg">
+                            <span className="relative flex items-center justify-center gap-2">
+                                View All Projects
+                                <ArrowUpRight className="w-5 h-5"/>
+                            </span>
+                        </Button>
                     </div>
                 </div>
             </section>
