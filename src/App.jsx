@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import { Navbar } from "@/layout/Navbar";
 import { Hero } from "@/sections/Hero";
 import { About } from "@/sections/About";
@@ -16,6 +17,7 @@ function App() {
         <Projects />
         <Experience />
         <Contact />
+        <Analytics />
       </main>
     </div>
       
