@@ -82,7 +82,7 @@ export const Hero = () => {
                                 <Button size="lg">
                                     <span className="relative flex items-center justify-center gap-2">
                                         <Download className="w-5 h-5" />
-                                        Download Resume
+                                        Resume
                                     </span>
                                 </Button>
                             </a>
@@ -128,7 +128,7 @@ export const Hero = () => {
             >
                 <a
                     href="#about"
-                    className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+                    className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group cursor-pointer"
                 >
                     <span className="text-xs uppercase tracking-wider">Scroll</span>
                     <ChevronDown className="w-6 h-6" />

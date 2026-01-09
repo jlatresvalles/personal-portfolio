@@ -67,7 +67,7 @@ export const Projects = () => {
                                 style={{animationDelay: `${(idx + 1) * 100}ms`}}
                             >
                                 {/* Image */}
-                                <div className="relative overflow-hidden h-75">
+                                <div className="relative overflow-hidden aspect-video">
                                     <img 
                                         src={projects.image} 
                                         alt={projects.title} 
@@ -99,8 +99,13 @@ export const Projects = () => {
                                 {/* Content */}
                                 <div className="p-6 space-y-4">
                                     <div className="flex items-start justify-between">
-                                        <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{projects.title}</h3>
-                                        <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all"/>
+                                            <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{projects.title}</h3>
+                                        <a
+                                            href={projects.link}
+                                            target="_blank"
+                                        >
+                                            <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
+                                        </a>
                                     </div>
                                     <p className="text-muted-foreground text-sm">{projects.description}</p>
                                     <div className="flex flex-wrap gap-2">
@@ -119,10 +124,15 @@ export const Projects = () => {
                     {/* View All Projects Call to Action */}
                     <div className="text-center mt-12 animate-fade-in animation-delay-500">
                         <Button size="lg">
-                            <span className="relative flex items-center justify-center gap-2">
-                                View All Projects
-                                <ArrowUpRight className="w-5 h-5"/>
-                            </span>
+                            <a
+                                href="https://github.com/jlatresvalles"
+                                target="_blank"
+                            >
+                                <span className="relative flex items-center justify-center gap-2">
+                                    View All Projects
+                                    <ArrowUpRight className="w-5 h-5"/>
+                                </span>
+                            </a>
                         </Button>
                     </div>
                 </div>
