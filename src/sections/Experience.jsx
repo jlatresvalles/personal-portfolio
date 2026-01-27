@@ -1,6 +1,14 @@
 const experiences = [
     {
-        period: "October 2025 - Present", 
+        period: "January 2026 - Present", 
+        role: "Digital Transformation Specialist",
+        company: "New Jersey Department of Community Affairs",
+        description: "Design, develop, configure, and maintain workflows for statewide housing and community resource programs, as well as help organize the Homeless Management Information System Help Desk within ServiceNow.",
+        skills: ["SimpliGov", "ServiceNow"],
+        current: true,
+    },
+    {
+        period: "October 2025 - January 2026", 
         role: "Digital Transformation Intern",
         company: "New Jersey Department of Community Affairs",
         description: "Design, develop, configure, and maintain workflows for statewide housing and community resource programs.",

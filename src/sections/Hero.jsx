@@ -9,7 +9,8 @@ const skills = [
     "React",
     "Tailwind CSS",
     "SimpliGov",
-    "Postman"
+    "Postman",
+    "SerivceNow",
 ]
 
 export const Hero = () => {
@@ -52,7 +53,7 @@ export const Hero = () => {
                         <div className="animate-fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                                    Digital Transformation Intern
+                                    Digital Transformation Specialist
                             </span>
                         </div>
 
@@ -63,7 +64,7 @@ export const Hero = () => {
                             </h1>
 
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                                I'm a Digital Transformation Intern at the New Jersey Department of Community Affairs, where I design and automate end-to-end workflows using SimpliGov to streamline operations for hundreds of staff and residents across the state.
+                                I'm a Digital Transformation Specialist at the New Jersey Department of Community Affairs, where I design and automate end-to-end workflows using SimpliGov to streamline operations for hundreds of staff and residents across the state.
                             </p>
                         </div>
 

@@ -3,6 +3,14 @@ import { Button } from "@/components/Button"
 
 const projects = [
     {
+        title: "osu! Automated Tourney Reminder",
+        description: "This Discord bot gets a list of the most recent tournaments posted in the osu! community website, and is sent out to the public after being approved. A tournament forum post can either be rejected from being sent, accepted and deployed to a dedicated Discord channel, or edited for more information (Background banner from h3p0).",
+        image: "/projects/osu-automated-tourney-reminder.jpg",
+        tags: ["JavaScript"],
+        link: "https://github.com/jlatresvalles/osu-automated-tourney-reminder",
+        github: "https://github.com/jlatresvalles/osu-automated-tourney-reminder",
+    },
+    {
         title: "Winter Termination Program Self-Certification Form",
         description: "Created to quickly prevent service discontinuation for eligible residential customers receiving residential electric, sewer, and water service from a local authority, municipal utility, or rural electric cooperative.",
         image: "/projects/winter-termination.png",
