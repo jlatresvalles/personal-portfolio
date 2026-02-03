@@ -1,3 +1,10 @@
+# 🌐 Personal Portfolio (ACTIVE)
+
+✅ **This is my primary, actively maintained portfolio.**  
+🚀 Deployed at: https://jlatresvalles.vercel.app/
+
+Other portfolio repos are archived or experimental.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
