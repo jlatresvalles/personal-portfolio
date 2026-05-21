@@ -42,11 +42,13 @@ export const About = () => {
                         </div>
 
                         <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
-                            <p>I'm a Digital Transformation Intern at the New Jersey Department of Community Affairs, where I design and automate end-to-end workflows using SimpliGov to streamline operations for hundreds of staff across the state. I have built and launched automated solutions for EEO training, grant scoring, and statewide housing programs by using APIs, data sources, conditional logic, and advanced formulas to reduce manual processes and improve user experience.</p>
+                            <p>I'm a Digital Transformation Specialist at the New Jersey Department of Community Affairs, where I design, build, and maintain automated workflow systems that support statewide housing and community resource programs serving thousands of New Jersey residents and hundreds of staff.</p>
 
-                            <p>My background revolves around Computer Science, Psychology, and applied research, giving me a strong foundation in both technical problem-solving and human-centered design. I enjoy working directly with program leads to translate complex requirements into scalable digital solutions that improve efficiency, data quality, and decision-making.</p>
+                            <p>My work spans the full lifecycle of application development, from gathering requirements with program managers and configuring SimpliGov workflows, to integrating APIs and data sources, managing user access controls, and delivering training to agency personnel. Recent projects include building a cloud-based IVR system using Amazon Connect to automatically route callers across housing, utility, and lead programs, and leading the development of the HMIS Help Desk in ServiceNow in coordination with NJOIT to improve technical support for stakeholder organizations statewide.</p>
 
-                            <p>Beyond government tech, I have built projects in machine learning (PyTorch), full-stack development (HTML/CSS/JS), and conversational AI (Google Cloud/Dialogflow), including a movie recommender system and an AI transit chatbot. I’m passionate about automation, AI, and building tools that make others' work easier and smarter.</p>
+                            <p>My background in Computer Science and Psychology gives me a foundation in both technical problem-solving and human-centered design. I enjoy translating complex operational requirements into scalable digital solutions that improve efficiency, data quality, and decision-making for the people who use them every day.</p>
+
+                            <p>Beyond government tech, I've built projects in machine learning (PyTorch), conversational AI (Google Cloud/Dialogflow), and full-stack development (HTML/CSS/JS), including a collaborative filtering movie recommender system, an AI-powered NJ Transit chatbot, and a hospital locator that won 1st place in my district.</p>
                         </div>
                     </div>
 

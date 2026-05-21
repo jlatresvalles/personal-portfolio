@@ -3,7 +3,7 @@ const experiences = [
         period: "January 2026 - Present", 
         role: "Digital Transformation Specialist",
         company: "New Jersey Department of Community Affairs",
-        description: "Design, develop, configure, and maintain workflows for statewide housing and community resource programs, as well as help organize the Homeless Management Information System Help Desk within ServiceNow.",
+        description: "Design, develop, configure, and maintain workflows for statewide housing and community resource programs, as well as help organize the Homeless Management Information System Help Desk within ServiceNow and design an Interactive Voice Response (IVR) using Amazon Connect to automatically route callers to dedicated housing programs.",
         skills: ["SimpliGov", "ServiceNow"],
         current: true,
     },

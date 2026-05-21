@@ -11,6 +11,7 @@ const skills = [
     "SimpliGov",
     "Postman",
     "SerivceNow",
+    "Amazon Connect",
 ]
 
 export const Hero = () => {
