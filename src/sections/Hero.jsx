@@ -3,15 +3,13 @@ import { Download, ChevronDown } from "lucide-react"
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton"
 
 const skills = [
-    "Java",
-    "Python",
-    "C",
-    "React",
-    "Tailwind CSS",
     "SimpliGov",
-    "Postman",
-    "SerivceNow",
+    "ServiceNow",
     "Amazon Connect",
+    "Python",
+    "JavaScript",
+    "Java",
+    "C",
 ]
 
 export const Hero = () => {
@@ -54,7 +52,7 @@ export const Hero = () => {
                         <div className="animate-fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                                    Digital Transformation Specialist
+                                    Seeking New Opportunities
                             </span>
                         </div>
 
@@ -65,7 +63,7 @@ export const Hero = () => {
                             </h1>
 
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                                I'm a Digital Transformation Specialist at the New Jersey Department of Community Affairs, where I design and automate end-to-end workflows using SimpliGov to streamline operations for hundreds of staff and residents across the state.
+                                I'm a Computer Science and Psychology graduate with professional experience in digital transformation, workflow automation, and full-stack development. I have built systems used by thousands of New Jersey residents through the NJ Department of Community Affairs and I am currently seeking new opportunities in public service or technology.
                             </p>
                         </div>
 
