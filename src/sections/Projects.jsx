@@ -3,6 +3,14 @@ import { Button } from "@/components/Button"
 
 const projects = [
     {
+        title: "Restaurant Menu & Order Analysis",
+        description: "SQL exploratory data analysis on a restaurant's menu and order data, uncovering insights on pricing, popularity, and customer spending behavior.",
+        image: "/projects/restaurant_analysis.png",
+        tags: ["SQL"],
+        link: "https://github.com/jlatresvalles/restaurant-menu-order-analysis",
+        github: "https://github.com/jlatresvalles/restaurant-menu-order-analysis",
+    },
+    {
         title: "HMIS Help Desk",
         description: "Led requirements gathering and coordinated directly with NJOIT (Office of Information Technology) and NJHFMA (Housing & Mortgage Finance Agency) to design a Homeless Management Information System (HMIS) Help Desk in ServiceNow, improving technical support workflows for stakeholder organizations and shelter providers across New Jersey. Currently in development.",
         image: "/projects/nj-hfma.jpeg",
