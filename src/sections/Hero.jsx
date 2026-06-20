@@ -10,7 +10,8 @@ const skills = [
     "JavaScript",
     "Java",
     "C",
-    "SQL"
+    "SQL",
+    "Tableau"
 ]
 
 export const Hero = () => {
@@ -64,7 +65,7 @@ export const Hero = () => {
                             </h1>
 
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                                I'm a Computer Science and Psychology graduate with professional experience in digital transformation, workflow automation, and full-stack development. I have built systems used by thousands of New Jersey residents through the NJ Department of Community Affairs and I am currently seeking new opportunities in public service or technology.
+                                I'm a Computer Science and Psychology graduate from Rutgers-New Brunswick with professional experience in digital transformation, workflow automation, and full-stack development. I have built systems used by thousands of New Jersey residents through the NJ Department of Community Affairs and am currently seeking new opportunities in public service or technology.
                             </p>
                         </div>
 
