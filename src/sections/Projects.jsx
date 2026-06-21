@@ -25,6 +25,14 @@ const projects = [
         tags: ["ServiceNow", "Stakeholder Collaboration"],
         link: "#",
         github: "#",
+    },
+    {
+        title: "Video Game Sales Analysis",
+        description: "Analyzed 16,000+ video game sales records using MySQL to see trends in genre popularity, platform performance, and regional sales patterns. Visualized key findings in a Tableau dashboard using bar charts, line graphs, and grouped comparisons across North America, Europe, and Japan.",
+        image: "/projects/video_game_analysis.png",
+        tags: ["SQL", "Tableau"],
+        link: "https://public.tableau.com/views/VideoGameSalesAnalysis_17820546582940/VideoGameSalesAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        github: "https://github.com/jlatresvalles/video-game-sales-analysis",
     },  
     {
         title: "Restaurant Menu & Order Analysis",
