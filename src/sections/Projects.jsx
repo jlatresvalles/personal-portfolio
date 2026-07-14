@@ -28,9 +28,9 @@ const projects = [
     },
     {
         title: "Video Game Sales Analysis",
-        description: "Analyzed 16,000+ video game sales records using MySQL to see trends in genre popularity, platform performance, and regional sales patterns. Visualized key findings in a Tableau dashboard using bar charts, line graphs, and grouped comparisons across North America, Europe, and Japan.",
+        description: "Analyzed 16,000+ video game sales records using MySQL to see trends in genre popularity, platform performance, and regional sales patterns. Visualized key findings in a Tableau dashboard using bar charts, line graphs, and grouped comparisons across North America, Europe, and Japan. Also rebuilt the analysis in Excel using pivot tables, XLOOKUP, and SUMIFS to compare regional demand by genre.",
         image: "/projects/video_game_analysis.png",
-        tags: ["SQL", "Tableau"],
+        tags: ["SQL", "Tableau", "Excel"],
         link: "https://public.tableau.com/views/VideoGameSalesAnalysis_17820546582940/VideoGameSalesAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
         github: "https://github.com/jlatresvalles/video-game-sales-analysis",
     },  

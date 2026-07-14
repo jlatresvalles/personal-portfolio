@@ -11,7 +11,8 @@ const skills = [
     "Java",
     "C",
     "SQL",
-    "Tableau"
+    "Tableau",
+    "Excel"
 ]
 
 export const Hero = () => {
